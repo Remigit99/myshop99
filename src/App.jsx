@@ -14,7 +14,7 @@ function App() {
           {/* User Routes */}
 
           <Route path='/' element={<UserLayout />}>
-            <Route path='index' element={<Home />} />
+            <Route index element={<Home />} />
           </Route>
 
         </Routes>
