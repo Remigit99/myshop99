@@ -14,7 +14,13 @@ export const HeroSwiper = () => {
 
 
   return (
-    <Carousel>
+    <Carousel
+    autoPlay={true}
+    infiniteLoop={true}
+    interval={3000}
+    showStatus={false}
+    showThumbs={false}
+    >
       <div>
         <img src={H1} alt="header1" className='w-full h-[500px] rounded-md' />
       </div>
