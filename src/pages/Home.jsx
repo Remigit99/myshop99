@@ -2,6 +2,8 @@
 import { HeroSwiper } from '../component/common/HeroSwiper';
 import HeaderMenu from '../component/common/HeaderMenu';
 import FlashSales from '../component/common/FlashSales';
+import Categories from '../component/Layout/Categories';
+import BestSelling from '../component/common/BestSelling';
 
 
 const Home = () => {
@@ -20,6 +22,10 @@ const Home = () => {
       </div>
 
       <FlashSales />
+
+      <Categories />
+
+      <BestSelling />
 
     </main >
   )

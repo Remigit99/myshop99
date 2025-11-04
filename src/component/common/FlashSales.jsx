@@ -14,12 +14,12 @@ const FlashSales = () => {
     const { data: products = [], isLoading, error } = useGetProductsQuery(6);
 
     if (isLoading) {
-        return <div>Loading...</div>
+        return <div className="flex justify-center items-center"> <h2>Loading</h2></div>
     }
 
 
     if (error) {
-        return <div> Something went wrong! {error.message}</div>
+        return <div className="flex justify-center items-center"> <h2>Something went wrong! {error.message}</h2> </div>
     }
 
     
