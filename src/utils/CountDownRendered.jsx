@@ -8,7 +8,7 @@ const CountDownRendered = ({ days, hours, minutes, seconds, completed }) => {
   } else {
 
     return (
-      <div className='flex flex-start items-center gap-4 mt-4 text-center w-max px-4 py-2'>
+      <div className='flex flex-start items-center gap-4 mt-4 text-center w-max px-4'>
         <div>
           <p className=''>Days</p>
           <h1 className='text-3xl font-bold'>{String(days).padStart(2, "0")}</h1>
