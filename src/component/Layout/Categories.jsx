@@ -14,34 +14,36 @@ const Categories = () => {
                     <p className='text-[16px] text-amber-500'>Categories </p>
                 </div>
 
+                <h1 className="my-6 font-bold text-4xl">Browse By Category</h1>
+
                 <div className="flex justify-between items-center">
                     <article className="flex justify-center items-center flex-col gap-4 bg-gray-50 rounded-2xl py-8 px-12">
-                        <BsPhone />
+                        <BsPhone className="text-3xl" />
                         <p>Phone</p>
                     </article>
 
                     <article className="flex justify-center items-center flex-col gap-4 bg-gray-50 rounded-2xl py-8 px-12">
-                        <HiOutlineDesktopComputer />
+                        <HiOutlineDesktopComputer className="text-3xl" />
                         <p>Computer</p>
                     </article>
 
                     <article className="flex justify-center items-center flex-col gap-4 bg-gray-50 rounded-2xl py-8 px-12">
-                        <IoWatchOutline />
+                        <IoWatchOutline className="text-3xl" />
                         <p>Smartwatch</p>
                     </article>
 
                     <article className="flex justify-center items-center flex-col gap-4 bg-gray-50 rounded-2xl py-8 px-12">
-                        <BsCamera />
+                        <BsCamera className="text-3xl" />
                         <p>Camera</p>
                     </article>
 
                     <article className="flex justify-center items-center flex-col gap-4 bg-gray-50 rounded-2xl py-8 px-12">
-                        <GiHeadphones />
+                        <GiHeadphones className="text-3xl" />
                         <p>Headphones</p>
                     </article>
 
                     <article className="flex justify-center items-center flex-col gap-4 bg-gray-50 rounded-2xl py-8 px-12">
-                        <PiGameControllerThin />
+                        <PiGameControllerThin className="text-3xl" />
                         <p>Gaming</p>
                     </article>
 

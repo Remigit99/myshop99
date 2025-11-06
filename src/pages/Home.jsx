@@ -3,8 +3,9 @@ import { HeroSwiper } from '../component/common/HeroSwiper';
 import HeaderMenu from '../component/common/HeaderMenu';
 import FlashSales from '../component/common/FlashSales';
 import Categories from '../component/Layout/Categories';
-import BestSelling from '../component/common/BestSelling';
-
+import BestSelling from '../component/Layout/BestSelling';
+import FeaturedProduct from '../component/Layout/FeaturedProduct';
+import NewArrival from '../component/Layout/NewArrival';
 
 const Home = () => {
   return (
@@ -26,6 +27,10 @@ const Home = () => {
       <Categories />
 
       <BestSelling />
+
+      <FeaturedProduct />
+
+      <NewArrival/>
 
     </main >
   )
