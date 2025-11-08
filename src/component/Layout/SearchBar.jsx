@@ -1,5 +1,6 @@
 import { useState } from 'react'
 import { CiSearch } from "react-icons/ci";
+import { MdClose } from "react-icons/md";
 
 
 const SearchBar = () => {
@@ -13,16 +14,25 @@ const SearchBar = () => {
     setSearchBarOpen(!searchBarOpen);
   }
   return (
-    <div>
+    <div className=''>
       {
         searchBarOpen ? (
-          <form className={`absolute w-full h-20 bg-gray-100 top-0 left-0 right-0`}>
-            <input type="text" placeholder="Search..." 
-            value={searchTerm}
-            onChange={(e) => setSearchTerm(e.target.value)}
-            />
+          <form className={`absolute w-full h-20 bg-white top-0 left-0 right-0`}>
+            <div className='flex justify-between items-center gap-4 w-3/4 h-10 m-4 p-2 border border-gray-300 rounded-md'>
+              <input type="text" placeholder="Search..."
+                value={searchTerm}
+                onChange={(e) => setSearchTerm(e.target.value)}
+                className="border-none flex flex-1 focus:outline-none"
+              />
 
-            <button type="button" onClick={toggleSearchbar} > close
+              <CiSearch className="w-6 h-6"
+              // onClick={toggleSearchbar}
+              />
+
+            </div>
+            <button type="button" onClick={toggleSearchbar}
+              className="absolute top-4 right-4">
+              <MdClose className="w-6 h-6" />
             </button>
           </form>
         ) :

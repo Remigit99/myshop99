@@ -11,14 +11,14 @@ const CountDownRendered = ({ days, hours, minutes, seconds, completed }) => {
       <div className='flex flex-start items-center gap-4 mt-4 text-center w-max px-4'>
         <div>
           <p className=''>Days</p>
-          <h1 className='text-3xl font-bold'>{String(days).padStart(2, "0")}</h1>
+          <h1 className='text-2xl md:text-3xl font-bold'>{String(days).padStart(2, "0")}</h1>
         </div>
 
         <div className='font-semibold text-3xl mt-6'>:</div>
 
         <div>
           <p>Hours</p>
-          <h1 className='text-3xl font-bold'>{String(hours).padStart(2, "0")}</h1>
+          <h1 className='text-2xl md:text-3xl font-bold'>{String(hours).padStart(2, "0")}</h1>
         </div>
 
         <div className='font-semibold text-3xl mt-6'>:</div>
@@ -26,7 +26,7 @@ const CountDownRendered = ({ days, hours, minutes, seconds, completed }) => {
 
         <div>
           <p>Minutes</p>
-          <h1 className='text-3xl font-bold'>{String(minutes).padStart(2, "0")}</h1>
+          <h1 className='text-2xl md:text-3xl font-bold'>{String(minutes).padStart(2, "0")}</h1>
         </div>
 
         <div className='font-semibold text-3xl mt-6'>:</div>
@@ -34,7 +34,7 @@ const CountDownRendered = ({ days, hours, minutes, seconds, completed }) => {
 
         <div>
           <p>Seconds</p>
-          <h1 className='text-3xl font-bold'>{String(seconds).padStart(2, "0")}</h1>
+          <h1 className='text-2xl md:text-3xl font-bold'>{String(seconds).padStart(2, "0")}</h1>
         </div>
 
 

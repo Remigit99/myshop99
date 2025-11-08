@@ -22,16 +22,16 @@ export const HeroSwiper = () => {
     showThumbs={false}
     >
       <div>
-        <img src={H1} alt="header1" className='w-full h-[500px] rounded-md' />
+        <img src={H1} alt="header1" className='w-full h-[300px] md:h-[500px] rounded-md' />
       </div>
       <div>
-        <img src={H2} alt="header1" className='w-full h-[500px] rounded-md' />
+        <img src={H2} alt="header1" className='w-full h-[300px] md:h-[500px] rounded-md' />
       </div>
       <div>
-        <img src={H3} alt="header1" className='w-full h-[500px] rounded-md' />
+        <img src={H3} alt="header1" className='w-full h-[300px] md:h-[500px] rounded-md' />
       </div>
       <div>
-        <img src={H4} alt="header1" className='w-full h-[500px] rounded-md' />
+        <img src={H4} alt="header1" className='w-full h-[300px] md:h-[500px] rounded-md' />
       </div>
 
     </Carousel>

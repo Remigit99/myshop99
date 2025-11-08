@@ -2,8 +2,8 @@ import JB from '../../assets/images/JBL_BOOMBOX_2_HERO.png';
 
 const FeaturedProduct = () => {
     return (
-        <section className=" text-white my-16">
-            <div className="container mx-auto bg-gray-900 flex justify-between items-center  px-8">
+        <section className="hidden text-white my-16">
+            <div className="container mx-auto bg-gray-900 flex flex-col gap-4 md:justify-between items-center  px-8">
 
                 <div>
 

@@ -27,16 +27,16 @@ const FlashSales = () => {
     return (
         <section className='py-15'>
             <div className="container mx-auto">
-                <div className='flex flex-start flex-col gap-6'>
+                <div className='flex flex-start flex-col md:justify-between gap-6'>
                     <div className='flex flex-start items-center gap-4'>
                         <div className='w-6 h-8 bg-amber-500'></div>
-                        <p className='text-[16px] text-amber-500'>Today's </p>
+                        <p className='text-[16px] text-amber-500 font-medium'>Today's </p>
                     </div>
 
-                    <div className='flex flex-start items-center gap-20'>
+                    <div className='flex flex-col md:flex-start md:items-center md:gap-20'>
                         <div className='flex flex-start items-center gap-4'>
-                            <h2 className='font-bold text-4xl'>Flash Sales</h2>
-                            <div></div>
+                            <h2 className='font-bold text-2xl md:text-4xl'>Flash Sales</h2>
+                            
                         </div>
 
                         <>
@@ -47,7 +47,7 @@ const FlashSales = () => {
                 </div>
 
 
-                <div className="grid grid-cols-4 gap-14 mt-12">
+                <div className="grid grid-cols-2 gap-6 md:grid-cols-4 md:gap-14 mt-12">
 
                     {/* Flash sales content goes here */}
 

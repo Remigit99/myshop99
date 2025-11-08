@@ -64,23 +64,23 @@ const menuCategories = [
 
 
 
-const HeaderMenu = () =>{
+const HeaderMenu = () => {
 
-    return(
-        <>
-        {
-                    menuCategories.map((item, index) => {
-                      // const Icon = item.icon;
-                      return (
-                        <div key={index} className='flex gap-2 py-2 hover:text-amber-500 items-center'>
-                          <span>{item.icon}</span>
-                          <Link to="/">{item.title}</Link>
-                        </div>)
-                    })
-                  }
-        
-        </>
-    )
+  return (
+    <>
+      {
+        menuCategories.map((item, index) => {
+          // const Icon = item.icon;
+          return (
+            <div key={index} className='hidden md:flex gap-2 py-2 hover:text-amber-500 items-center'>
+              <span>{item.icon}</span>
+              <Link to="/">{item.title}</Link>
+            </div>)
+        })
+      }
+
+    </>
+  )
 
 
 }

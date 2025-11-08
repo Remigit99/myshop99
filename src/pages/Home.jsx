@@ -7,6 +7,12 @@ import BestSelling from '../component/Layout/BestSelling';
 import FeaturedProduct from '../component/Layout/FeaturedProduct';
 import NewArrival from '../component/Layout/NewArrival';
 
+import {CiDeliveryTruck} from "react-icons/ci"
+import { BsShieldCheck } from "react-icons/bs";
+import { CiHeadphones } from "react-icons/ci";
+
+
+
 const Home = () => {
   return (
     <main>
@@ -31,6 +37,29 @@ const Home = () => {
       <FeaturedProduct />
 
       <NewArrival/>
+
+      <section className="py-12"> 
+        <div className="w-3/4 mx-auto flex flex-col gap-10 md:justify-between items-center ">
+          <article className="flex flex-col gap-1 items-center">
+            <CiDeliveryTruck className="text-5xl mb-4"/>
+            <h4 className="font-bold ">FREE AND FAST DELIVERY</h4>
+            <p>Free delivery for all orders over $140</p>
+          </article>
+
+          <article className="flex flex-col gap-1 items-center">
+<CiHeadphones className="text-5xl mb-4"/>
+            <h4 className="font-bold ">24/7 CUSTOMER SUPPORT</h4>
+            <p>Friendly 24/7 customer support</p>
+          </article>
+
+          <article className="flex flex-col gap-1 items-center">
+<BsShieldCheck className="text-5xl mb-4" />
+            
+            <h4 className="font-bold ">MONEY BACK GUARANTY</h4>
+            <p>We return money within 30 days</p>
+          </article>
+        </div>
+      </section>
 
     </main >
   )

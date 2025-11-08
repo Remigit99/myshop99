@@ -23,7 +23,7 @@ const BestSelling = () => {
 
             <h1 className="my-6 font-bold text-4xl">Best Selling Products</h1>
 
-            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6 gap-6">
+            <div className="grid grid-cols-2 gap-6 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-6">
                 {
                     products?.products.slice(9, 15).map((product) => (
                         <ProductCard key={product.id} {...product} />

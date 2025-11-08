@@ -22,8 +22,41 @@
 
 }
 
+@utility container{
+  margin-inline: auto;
+  padding-inline: 1rem;
+  width: 100%;
 
-@theme{
+  @variant sm{
+    max-width: 600px;
+    padding-inline: 2.5rem;
+  } 
+
+  @variant md{
+    max-width: 728px;
+    padding-inline: 3rem;
+
+  }
+  @variant lg{
+    max-width: 984px;
+    padding-inline: 3rem;
+
+  }
+  @variant xl{
+    max-width: 1240px;  
+    padding-inline: 4rem;
+
+}
+
+  @variant 2xl{
+    max-width: 1496px;  
+    padding-inline: 5rem;
+
+  }
+
+}
+
+/* @theme{
 --container-xxsm: 300px;
   --container-xsm: 420px;
   --container-sm: 640px;
@@ -32,5 +65,5 @@
   --container-xl: 1280px;
   --container-2xl: 1536px;
   
-}
+} */
 

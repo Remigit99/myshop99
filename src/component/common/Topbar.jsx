@@ -9,7 +9,7 @@ const Topbar = () => {
 <div className=" w-full  bg-black h-6">
 
     <div className="container m-auto text-white  flex justify-between align-center items-center">
-      <div className="flex items-center gap-1">
+      <div className="hidden flex items-center gap-1">
         <RiFacebookLine />
         <CiInstagram />
         <RiTwitterXFill />
@@ -17,14 +17,14 @@ const Topbar = () => {
 
 
       </div>
-      <div>
-        <p className="text-sm" >
+      <div className="flex flex-grow">
+        <p className="text-sm " >
           Summer Sale For All Swim Swim Suits And Free Express Delivery - OFF 50%!
           <a href="#" className="font-bold underline ml-1">Shop Now</a>
         </p>
 
       </div>
-      <div>
+      <div className="hidden md:block">
         <select>
           <option>English</option>
           <option>Yoruba</option>
