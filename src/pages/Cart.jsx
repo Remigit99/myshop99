@@ -20,6 +20,7 @@ const Cart = () => {
                 <h1 className="font-bold text-3xl sticky md:static top-0 z-10 bg-white">Cart</h1>
 
                 <div className="overflow-y-auto sm:overflow-hidden">
+                    
                     <div className="flex flex-col md:flex md:justify-between gap-6">
 
                         <div className="md:flex-1 max-h-[70vh] relative overflow-y-auto sm:overflow-none sm:max-h-none sm:h-auto">
