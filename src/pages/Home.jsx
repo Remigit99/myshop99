@@ -39,7 +39,7 @@ const Home = () => {
       <NewArrival />
 
       <section className="py-12 mb-16">
-        <div className="w-3/4 mx-auto flex  sm:flex-col gap-10 md:flex-row md:justify-between items-center">
+        <div className="w-3/4 mx-auto flex  flex-col gap-10 md:flex-row md:justify-between items-center">
           <article className="flex flex-col gap-1 items-center">
             <CiDeliveryTruck className="text-5xl mb-4" />
             <h4 className="font-bold ">FREE AND FAST DELIVERY</h4>
