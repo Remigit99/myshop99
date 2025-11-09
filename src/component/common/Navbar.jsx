@@ -22,9 +22,9 @@ const Navbar = () => {
       <div className="container mx-auto flex justify-between items-center py-3">
         <div>
           {/* Logo */}
-          <h2 className="font-bold text-xl">
+          <Link to="/" className="font-bold text-xl">
             Shop<span className="text-amber-500">99</span>
-          </h2>
+          </Link>
         </div>
 
         <div className="hidden md:flex items-center gap-6 " >
@@ -40,7 +40,9 @@ const Navbar = () => {
 
           <SearchBar />
 
+          <Link to="/cart">
           <CiShoppingCart className="w-6 h-6" />
+          </Link>
 
           {
             showMobileMenu ?

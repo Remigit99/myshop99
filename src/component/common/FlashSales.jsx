@@ -9,7 +9,7 @@ import ProductCard from "./ProductCard";
 const FlashSales = () => {
 
     const targetDate = new Date();
-    targetDate.setDate(targetDate.getDate() + 30); // Set target time to 30 days from now
+    targetDate.setDate(targetDate.getDate() + 5); // Set target time to 30 days from now
 
     const { data: products = [], isLoading, error } = useGetProductsQuery(6);
 
@@ -33,21 +33,21 @@ const FlashSales = () => {
                         <p className='text-[16px] text-amber-500 font-medium'>Today's </p>
                     </div>
 
-                    <div className='flex flex-col md:flex-start md:items-center md:gap-20'>
+                    <div className='flex flex-col md:flex-row md:justify-start md:gap-10 md:items-center'>
                         <div className='flex flex-start items-center gap-4'>
                             <h2 className='font-bold text-2xl md:text-4xl'>Flash Sales</h2>
                             
                         </div>
 
-                        <>
+                        <div>
                             <Countdown date={targetDate} renderer={CountDownRendered} />
-                        </>
+                        </div>
 
                     </div>
                 </div>
 
 
-                <div className="grid grid-cols-2 gap-6 md:grid-cols-4 md:gap-14 mt-12">
+                <div className="grid grid-cols-2 gap-6 md:grid-cols-3 lg:grid-cols-4 md:gap-6 mt-12">
 
                     {/* Flash sales content goes here */}
 

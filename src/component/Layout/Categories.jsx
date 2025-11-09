@@ -16,7 +16,7 @@ const Categories = () => {
 
                 <h1 className="my-6 font-bold text-3xl md:text-4xl">Browse By Category</h1>
 
-                <div className="grid grid-cols-2 md:flex gap-6 md:justify-between lg:items-center">
+                <div className="grid grid-cols-2 md:grid-col-3 gap-6 lg:grid-cols-6 lg:items-center">
                     <article className="flex justify-center items-center flex-col gap-4 bg-gray-50 rounded-2xl py-8 px-12">
                         <BsPhone className="text-3xl" />
                         <p>Phone</p>

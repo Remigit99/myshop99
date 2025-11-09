@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 import { PiCookingPotLight } from "react-icons/pi";
 import { BsPhone } from "react-icons/bs";
 import { TbRibbonHealth } from "react-icons/tb";
-import { GoHome } from "react-icons/go";
+import { CiHome } from "react-icons/ci";
 import { MdOutlineElectricalServices } from "react-icons/md";
 import { GiClothes } from "react-icons/gi";
 import { IoStorefrontOutline } from "react-icons/io5";
@@ -29,7 +29,7 @@ const menuCategories = [
   },
   {
     title: "Home & Office",
-    icons: GoHome,
+    icons: <CiHome />,
   },
   {
     title: "Electronics",
