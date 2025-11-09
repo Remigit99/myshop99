@@ -29,7 +29,7 @@ const Topbar = () => {
       </div>
 
       <div className="">
-        <p className="text-sm " >
+        <p className="text-xs" >
           Summer Sale For All Swim Swim Suits And Free Express Delivery - OFF 50%!
           <a href="#" className="font-bold underline ml-1">Shop Now</a>
         </p>
@@ -38,10 +38,10 @@ const Topbar = () => {
 
       <div className="hidden md:block">
         <select className="bg-white px-1 text-black text-sm outline-none">
-          <option>English</option>
-          <option>Yoruba</option>
-          <option>Spanish</option>
-          <option>Arabic</option>
+          <option className="text-xs">English</option>
+          <option className="text-xs">Yoruba</option>
+          <option className="text-xs">Spanish</option>
+          <option className="text-xs">Arabic</option>
         </select>
       </div>
     </div>
@@ -49,4 +49,4 @@ const Topbar = () => {
   )
 }
 
-export default Topbar
+export default Topbar;

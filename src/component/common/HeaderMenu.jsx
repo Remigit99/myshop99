@@ -74,7 +74,7 @@ const HeaderMenu = () => {
           return (
             <div key={index} className='hidden md:flex gap-2 py-2 hover:text-amber-500 items-center'>
               <span>{item.icon}</span>
-              <Link to="/">{item.title}</Link>
+              <Link to="/" className="text-xs">{item.title}</Link>
             </div>)
         })
       }

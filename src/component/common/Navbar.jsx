@@ -28,10 +28,10 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex items-center gap-6 " >
-          <Link className="font-medium " to="/">MEN</Link>
-          <Link className="font-medium " to="/">WOMEN</Link>
-          <Link className="font-medium " to="/">KIDS</Link>
-          <Link className="font-medium " to="/">NEW ARRIVALS</Link>
+          <Link className="font-medium text-base" to="/">MEN</Link>
+          <Link className="font-medium text-base" to="/">WOMEN</Link>
+          <Link className="font-medium text-base" to="/">KIDS</Link>
+          <Link className="font-medium text-base" to="/">NEW ARRIVALS</Link>
         </div>
 
         <div className="flex items-center gap-3">
